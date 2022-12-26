@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Employee Details</title>
+<style>
+.parent{
+border-style: solid;
+border-radius: 3px;
+text-align: center;
+margin-left: 350px;
+margin-right: 350px;
+margin-top: 55px;
+border-radius: 20px;
+}
+input{
+
+border-radius:25px;
+height:30px;
+}
+#id1{
+align-content: center;
+margin-top: 10px;
+}
+</style>
+</head>
+<body  bgcolor="pink">
+<form action="employeeDetails" method="post"><br> <br>
+<div class="parent"><br> 
+<h1 id='id1'> <u>Employee Details</u> </h1>
+<lable>Name:&nbsp&nbsp&nbsp&nbsp&nbsp</lable> <input class='name' type="text" required="required" name="name" size="60px"> <br> <br>
+<label>DOB:&nbsp&nbsp&nbsp&nbsp</label> <input class='dob' type="date"required" name="date">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <br> <br> &nbsp;
+<label>Address :</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<textarea rows="5" cols="60" value="address" name="address"></textarea> <br> <br>
+<label>Gender:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label><input type="radio"  name="gender" value="1"> Male 
+                          <input type="radio"  name="gender" required="required" value="2"> Female &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<br><br>
+<label>Salary:&nbsp&nbsp&nbsp&nbsp</label> <input type="text"  name="idnumber" pattern="[0-9]{5}" placeholder="enter 5 digit number only" >&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<br><br>
+<button>Submit</button><br> <br>
+
+</div>
+</form>
+</body>
+</html>
