@@ -43,7 +43,7 @@ public class SaveEmployee extends HttpServlet {
 		}
 	
 		String address = req.getParameter("address");
-		byte gender = Byte.parseByte(req.getParameter("gender"));
+		Byte gender = Byte.parseByte(req.getParameter("gender"));
 		Double salary = Double.parseDouble(req.getParameter("idnumber"));
 
 		try {

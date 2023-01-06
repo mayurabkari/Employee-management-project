@@ -26,7 +26,7 @@ public class FetchEmployeeList extends HttpServlet {
 		ResultSet rs = ed.getAllData();
 		HttpSession hs = req.getSession();
 		hs.setAttribute("1", rs);
-		RequestDispatcher rd = req.getRequestDispatcher("Employee.jsp");
+		RequestDispatcher rd = req.getRequestDispatcher("ViewEmployees.jsp");
 		rd.forward(req, resp);
 	}
 }

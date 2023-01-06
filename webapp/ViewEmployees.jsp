@@ -30,7 +30,7 @@
 <td><%= rs.getInt(4) %></td>
 <td><%= rs.getDouble(5) %></td>
 <td><%= rs.getDate(6) %></td>
-<td> <a href="deleteEmployee?id=<%=rs.getInt(1)%>">delete</a></form>
+<td> <a href="deleteEmployee?id=<%=rs.getInt(1)%>">delete</a></td>
 </tr>
 <%} %>
 
